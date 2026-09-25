@@ -1,0 +1,9 @@
+#to find eligibility to vote  
+#input a value 
+Age_in_years=int(input("Enter your age:"))
+#process: check whether the age of a person is greater than 18 or not 
+if Age_in_years>=18:
+#output Eligible to vote or not eligible 
+    print("Eligible to vote ")
+else:
+    print("Not Eligible to vote")
